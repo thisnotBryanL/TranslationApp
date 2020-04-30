@@ -10,7 +10,7 @@ public class TranslationServer {
     public static void main(String[] args) throws IOException {
 
         if (args.length != 1) {
-            System.err.println("Usage: java KnockKnockServer <port number>");
+            System.err.println("Usage: java TranslationServer <port number>");
             System.exit(1);
         }
         int portNumber = Integer.parseInt(args[0]);
